@@ -1,0 +1,15 @@
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\obj\Debug\net5.0\ConsoleStrategy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\obj\Debug\net5.0\ConsoleStrategy.AssemblyInfoInputs.cache
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\obj\Debug\net5.0\ConsoleStrategy.AssemblyInfo.cs
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\obj\Debug\net5.0\ConsoleStrategy.csproj.CoreCompileInputs.cache
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\bin\Debug\net5.0\ConsoleStrategy.exe
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\bin\Debug\net5.0\ConsoleStrategy.deps.json
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\bin\Debug\net5.0\ConsoleStrategy.runtimeconfig.json
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\bin\Debug\net5.0\ConsoleStrategy.runtimeconfig.dev.json
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\bin\Debug\net5.0\ConsoleStrategy.dll
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\bin\Debug\net5.0\ref\ConsoleStrategy.dll
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\bin\Debug\net5.0\ConsoleStrategy.pdb
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\obj\Debug\net5.0\ConsoleStrategy.dll
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\obj\Debug\net5.0\ref\ConsoleStrategy.dll
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\obj\Debug\net5.0\ConsoleStrategy.pdb
+D:\Develop\05_CSVhelper\Strategy\ConsoleStrategy\obj\Debug\net5.0\ConsoleStrategy.genruntimeconfig.cache
