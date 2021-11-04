@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EgpQ8CCdw0PWxmnwlq/tS0UR61mpTWg6bjW0KPbi+8ebonXjmq86QQtASCXxhXfP5iFSlp7hhFEIYvbPJ12Hwg==",
+  "dgSpecHash": "ekmFOaT6nK2XtPauTvXVyXqYL+QfEnbn899SXttu3XYx2vkM4Fzz1Askd+7UoxPEyjnAUoZf5NfWN4GHKxlM/A==",
   "success": true,
-  "projectFilePath": "D:\\Develop\\05_CSVhelper\\Strategy\\ConsoleStrategy\\ConsoleStrategy.csproj",
+  "projectFilePath": "C:\\Users\\micha\\source\\repos\\10_Patterns\\Strategy\\ConsoleStrategy\\ConsoleStrategy.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

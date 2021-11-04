@@ -13,10 +13,17 @@ namespace ConsoleStrategy
 
             fileReader.OpenFileWithParameter("blabla.txt", "ddd");
 
-            fileReader.SetupMyMethodToOpenFile(new OpenFileLegacy());
+            fileReader.SetupMyMethodToOpenFile(new OpenFileWithLog());
 
+            fileReader.OpenFileSomehow("withLog.txt");
 
+            fileReader.CompareTwoFiles("asdf.txt", "zxcv.txt");
 
+            fileReader.GetSizeOfFile("zxcv.txt");
+
+            fileReader.SetupMyMethodToOpenFile(new OpenFilewWithDecode());
+
+            fileReader.OpenFileSomehow("zxcv.zxcv.zxcv");
 
             Console.ReadKey();
         }
@@ -31,6 +38,11 @@ namespace ConsoleStrategy
         }
 
         public override void Display()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Info()
         {
             throw new NotImplementedException();
         }
@@ -50,11 +62,24 @@ namespace ConsoleStrategy
             return "open in your way";
         }
 
+        public string CompareTwoFiles(string input, string input2file)
+        {
+            FileReaderStrategy.OpenFile(input);
+
+            FileReaderStrategy.OpenFile(input2file);
+            return "diff";
+        }
+
         public string OpenFileWithParameter(string input, string parameter)
         {
             Console.WriteLine("do somthing with parameter");
             FileReaderStrategy.OpenFile(input);
             return "opened file with parameter, not from interface, just like that";
+        }
+
+        public string GetSizeOfFile(string input)
+        {
+            return "Get Size Of File";
         }
 
         public void SetupMyMethodToOpenFile(IFileReader fileReader)
@@ -63,6 +88,8 @@ namespace ConsoleStrategy
         }
 
         public abstract void Display();
+
+        public abstract void Info();
 
         public void CreateFile()
         {
@@ -90,6 +117,30 @@ namespace ConsoleStrategy
         public string OpenFile(string input)
         {
             return "use just typicall Stream";
+        }
+    }
+
+    public class OpenFileWithLog : IFileReader
+    {
+        public string OpenFile(string input)
+        {
+            return "Open File With Log";
+        }
+    }
+
+    public class OpenFileSilent : IFileReader
+    {
+        public string OpenFile(string input)
+        {
+            return "Open File Silent";
+        }
+    }
+
+    public class OpenFilewWithDecode : IFileReader
+    {
+        public string OpenFile(string input)
+        {
+            return "GetSizeOfFile";
         }
     }
 }
